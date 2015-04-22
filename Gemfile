@@ -1,5 +1,5 @@
-# source 'https://rubygems.org'
- source 'http://production.cf.rubygems.org'
+ source 'https://rubygems.org'
+# source 'http://production.cf.rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
@@ -32,9 +32,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Lab 6
+# Class 4 - Lab 6
 gem 'bootstrap-sass', '~> 3.3.3'
 gem 'autoprefixer-rails'
+
+# Class 4 - Lab 7
+gem 'kaminari'
+gem 'kaminari-bootstrap', '~> 3.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

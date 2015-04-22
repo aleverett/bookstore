@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-resources :books
+resources :books do
+  get 'page/:page', :action => :index, :on => :collection
+end
 root 'books#index'
 
 #  get "/books" => "books#index", as: 'books'
